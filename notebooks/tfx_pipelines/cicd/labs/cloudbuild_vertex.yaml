@@ -41,3 +41,5 @@ steps:
 
 # Push the custom image to Container Registry
 images: ['gcr.io/$PROJECT_ID/tfxcovertype']
+
+timeout: 2h
